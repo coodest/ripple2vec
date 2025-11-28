@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 
 import numpy as np
-import random,sys,logging
+import logging
 from concurrent.futures import ProcessPoolExecutor, as_completed
-from multiprocessing import Manager
+# from multiprocessing import Manager
 from time import time
 from collections import deque
 
 from utils import *
 from algorithms import *
 from algorithms_distances import *
-import graph
+# import graph
 from topk import ThresholdTopk
 
 

@@ -3,9 +3,9 @@ from time import time
 from collections import deque
 import numpy as np
 import math,logging
-from fastdtw import fastdtw
+# from fastdtw import fastdtw
 from concurrent.futures import ProcessPoolExecutor, as_completed
-from collections import defaultdict
+# from collections import defaultdict
 from utils import *
 from heapq import *
 import os

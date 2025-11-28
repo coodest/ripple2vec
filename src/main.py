@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 
 import argparse, logging
-import numpy as np
+# import numpy as np
 import ripple2vec
 from gensim.models import Word2Vec
 from gensim.models.word2vec import LineSentence
-from time import time
+# from time import time
 
 import graph
 
